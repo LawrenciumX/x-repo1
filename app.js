@@ -108,7 +108,6 @@ async function getWeatherData(city, country) {
     return response.data;
 }
 
-// Other endpoints go here (GET and POST endpoints)
 
 app.listen(config.port, () => {
     console.log(`Server running on port ${config.port}`);
